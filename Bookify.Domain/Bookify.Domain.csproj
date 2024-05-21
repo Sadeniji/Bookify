@@ -11,6 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Bookings\Events\" />
+    <Folder Include="Shared\" />
     <Folder Include="Users\Events\" />
   </ItemGroup>
 
