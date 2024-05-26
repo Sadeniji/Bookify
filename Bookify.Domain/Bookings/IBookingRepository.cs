@@ -4,7 +4,7 @@ namespace Bookify.Domain.Bookings;
 
 public interface IBookingRepository
 {
-    Task<Booking?> GetAsync(int id, CancellationToken cancellationToken = default);
+    Task<Booking?> GetIdAsync(Guid id, CancellationToken cancellationToken = default);
 
     Task<bool> IsOverlappingAsync(
         Apartment apartment,
