@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Domain", "Bookify.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Application", "Bookify.Application\Bookify.Application.csproj", "{B219BB1A-010C-4DB4-91DD-CCE3A17809F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Infrastructure", "Bookify.Infrastructure\Bookify.Infrastructure.csproj", "{8BEB78F1-EC63-4738-A767-4BE466283C1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Infrastructure", "Bookify.Infrastructure\Bookify.Infrastructure.csproj", "{8BEB78F1-EC63-4738-A767-4BE466283C1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Api", "Bookify.Api\Bookify.Api.csproj", "{C896B0B1-38D6-4B63-A0BC-D9AF5617A7FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{8BEB78F1-EC63-4738-A767-4BE466283C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BEB78F1-EC63-4738-A767-4BE466283C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BEB78F1-EC63-4738-A767-4BE466283C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C896B0B1-38D6-4B63-A0BC-D9AF5617A7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C896B0B1-38D6-4B63-A0BC-D9AF5617A7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C896B0B1-38D6-4B63-A0BC-D9AF5617A7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C896B0B1-38D6-4B63-A0BC-D9AF5617A7FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{0679AE47-4597-4A64-B75B-87BEB8A3E7FD} = {C6236F02-9B1C-4462-8869-1F7D8270E720}
 		{B219BB1A-010C-4DB4-91DD-CCE3A17809F6} = {C6236F02-9B1C-4462-8869-1F7D8270E720}
 		{8BEB78F1-EC63-4738-A767-4BE466283C1F} = {C6236F02-9B1C-4462-8869-1F7D8270E720}
+		{C896B0B1-38D6-4B63-A0BC-D9AF5617A7FF} = {C6236F02-9B1C-4462-8869-1F7D8270E720}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC193384-7FFA-43DB-964D-2E04E4AECCF5}
