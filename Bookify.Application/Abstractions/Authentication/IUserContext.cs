@@ -3,4 +3,5 @@
 public interface IUserContext
 {
     string IdentityId { get; }
+    Guid UserId { get; }
 }
